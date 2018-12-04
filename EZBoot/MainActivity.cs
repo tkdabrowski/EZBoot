@@ -28,6 +28,8 @@ namespace EZBoot
 
 
             //Button click function for login button
+
+            //TODO: Refactor to clean up
             loginButton.Click += (o, e) => {
                 Validator validator = new Validator(userName.Text, userPassword.Text);
                 bool validation;

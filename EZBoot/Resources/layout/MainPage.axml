@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-</LinearLayout>
+<GridLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:columnCount="1"
+	android:rowCount="4"
+	>
+	<Button
+		android:layout_rowWeight="1"
+		android:layout_rowHeight="1"
+		android:text="Boot up your computer"
+		android:id="@+id/executeButton"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:layout_centerHorizontal="true"
+		android:textSize="30dp"
+		android:clickable="true"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+	/>
+	<Button
+		android:layout_rowWeight="1"
+		android:layout_rowHeight="1"
+		android:text="Configure"
+		android:id="@+id/configureButton"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:layout_centerHorizontal="false"
+		android:textSize="25dp"
+		android:clickable="true"
+		android:textAlignment="center"
+		android:textAllCaps="false"
+	/>
+	<Spinner
+		android:layout_rowWeight="1"
+		android:layout_rowHeight="1"
+		android:id="@+id/deviceSpinner"
+		android:hint="Select a device"
+		android:textSize="25dp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:prompt="@string/device_prompt"
+    />
+</GridLayout>

@@ -18,9 +18,13 @@ namespace EZBoot
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            //Initialize, set layout and initialize elements
             base.OnCreate(savedInstanceState);
-
             SetContentView(Resource.Layout.MainPage);
+            Button executeButton = FindViewById<Button>(Resource.Id.executeButton);
+            Button configureButton = FindViewById<Button>(Resource.Id.configureButton);
+            Spinner deviceSpinner = FindViewById<Spinner>(Resource.Id.deviceSpinner);
+
 
             // Create your application here
 
