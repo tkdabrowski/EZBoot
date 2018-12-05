@@ -12,7 +12,6 @@
 	>
 	<Button
 		android:layout_rowWeight="1"
-		android:layout_rowHeight="1"
 		android:text="Boot up your computer"
 		android:id="@+id/executeButton"
 		android:layout_width="match_parent"
@@ -25,8 +24,7 @@
 	/>
 	<Button
 		android:layout_rowWeight="1"
-		android:layout_rowHeight="1"
-		android:text="Configure"
+		android:text="Configure devices"
 		android:id="@+id/configureButton"
 		android:layout_width="match_parent"
 		android:layout_height="60dp"
@@ -38,7 +36,6 @@
 	/>
 	<Spinner
 		android:layout_rowWeight="1"
-		android:layout_rowHeight="1"
 		android:id="@+id/deviceSpinner"
 		android:hint="Select a device"
 		android:textSize="25dp"
