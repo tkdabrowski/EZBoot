@@ -12,18 +12,14 @@ using Android.Widget;
 
 namespace EZBoot
 {
-   
-    [Activity(Label = "EZBoot Main Screen", Theme = "@style/AppTheme")]
-    public class MainScreen : Activity
+    [Activity(Label = "Config Screen")]
+    public class ConfigScreen : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.MainPage);
-
             // Create your application here
-
         }
     }
 }
