@@ -18,10 +18,10 @@ namespace EZBoot
 
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.activity_main);
+            SetContentView(Resource.Layout.MainPage);
 
             //Initialize elements to make them functional
-            Button loginButton = FindViewById<Button>(Resource.Id.loginButton);
+            Button executeButton = FindViewById<Button>(Resource.Id.executeButton);
             Button signUpButton = FindViewById<Button>(Resource.Id.signUpButton);
             EditText userName = FindViewById<EditText>(Resource.Id.userName);
             EditText userPassword = FindViewById<EditText>(Resource.Id.userPassword);
@@ -29,24 +29,11 @@ namespace EZBoot
 
             //Button click function for login button
             loginButton.Click += (o, e) => {
-                Validator validator = new Validator(userName.Text, userPassword.Text);
-                bool validation;
-                validation = validator.validateUser();
 
-                if (validation == true)
-                {
-                    Toast.MakeText(this, "You have logged in", ToastLength.Long).Show();
-                    Intent transferPages = new Intent(this, typeof(MainScreen));
-                    this.StartActivity(transferPages);
-                }
-                else
-                {
-                    Toast.MakeText(this, "Login attempt failed, try again", ToastLength.Long).Show();
-                }   
             };
 
             //Button click function for sign up button
-            signUpButton.Click += (o, e) =>
+            configureButton.Click += (o, e) =>
             {
                 Intent transferPages = new Intent(this, typeof(SignUpScreen));
             };
