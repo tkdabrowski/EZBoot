@@ -34,13 +34,4 @@
 		android:textAlignment="center"
 		android:textAllCaps="false"
 	/>
-	<Spinner
-		android:layout_rowWeight="1"
-		android:id="@+id/deviceSpinner"
-		android:hint="Select a device"
-		android:textSize="25dp"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content"
-		android:prompt="@string/device_prompt"
-    />
 </GridLayout>
