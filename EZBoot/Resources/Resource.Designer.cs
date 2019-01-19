@@ -105,6 +105,22 @@ namespace EZBoot
 			}
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f0e0000
+			public const int devices_array = 2131623936;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -2342,8 +2358,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f08009c
-			public const int action0 = 2131230876;
+			// aapt resource value: 0x7f08009e
+			public const int action0 = 2131230878;
 			
 			// aapt resource value: 0x7f08007c
 			public const int action_bar = 2131230844;
@@ -2366,17 +2382,17 @@ namespace EZBoot
 			// aapt resource value: 0x7f08005a
 			public const int action_bar_title = 2131230810;
 			
-			// aapt resource value: 0x7f080099
-			public const int action_container = 2131230873;
+			// aapt resource value: 0x7f08009b
+			public const int action_container = 2131230875;
 			
 			// aapt resource value: 0x7f08007d
 			public const int action_context_bar = 2131230845;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int action_divider = 2131230880;
+			// aapt resource value: 0x7f0800a2
+			public const int action_divider = 2131230882;
 			
-			// aapt resource value: 0x7f08009a
-			public const int action_image = 2131230874;
+			// aapt resource value: 0x7f08009c
+			public const int action_image = 2131230876;
 			
 			// aapt resource value: 0x7f080003
 			public const int action_menu_divider = 2131230723;
@@ -2393,17 +2409,20 @@ namespace EZBoot
 			// aapt resource value: 0x7f08005c
 			public const int action_mode_close_button = 2131230812;
 			
-			// aapt resource value: 0x7f08009b
-			public const int action_text = 2131230875;
+			// aapt resource value: 0x7f08009d
+			public const int action_text = 2131230877;
 			
-			// aapt resource value: 0x7f0800a9
-			public const int actions = 2131230889;
+			// aapt resource value: 0x7f0800ab
+			public const int actions = 2131230891;
 			
 			// aapt resource value: 0x7f08005d
 			public const int activity_chooser_view_content = 2131230813;
 			
 			// aapt resource value: 0x7f080027
 			public const int add = 2131230759;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int agreementCheckbox = 2131230898;
 			
 			// aapt resource value: 0x7f080070
 			public const int alertTitle = 2131230832;
@@ -2432,8 +2451,11 @@ namespace EZBoot
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f08009d
-			public const int cancel_action = 2131230877;
+			// aapt resource value: 0x7f0800b4
+			public const int cancelSignUp = 2131230900;
+			
+			// aapt resource value: 0x7f08009f
+			public const int cancel_action = 2131230879;
 			
 			// aapt resource value: 0x7f080045
 			public const int center = 2131230789;
@@ -2447,8 +2469,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f080073
 			public const int checkbox = 2131230835;
 			
-			// aapt resource value: 0x7f0800a5
-			public const int chronometer = 2131230885;
+			// aapt resource value: 0x7f0800a7
+			public const int chronometer = 2131230887;
 			
 			// aapt resource value: 0x7f08004e
 			public const int clip_horizontal = 2131230798;
@@ -2458,6 +2480,9 @@ namespace EZBoot
 			
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
+			
+			// aapt resource value: 0x7f08009a
+			public const int configureButton = 2131230874;
 			
 			// aapt resource value: 0x7f08008d
 			public const int container = 2131230861;
@@ -2504,14 +2529,17 @@ namespace EZBoot
 			// aapt resource value: 0x7f080030
 			public const int end = 2131230768;
 			
-			// aapt resource value: 0x7f0800ab
-			public const int end_padder = 2131230891;
+			// aapt resource value: 0x7f0800ad
+			public const int end_padder = 2131230893;
 			
 			// aapt resource value: 0x7f08003f
 			public const int enterAlways = 2131230783;
 			
 			// aapt resource value: 0x7f080040
 			public const int enterAlwaysCollapsed = 2131230784;
+			
+			// aapt resource value: 0x7f080099
+			public const int executeButton = 2131230873;
 			
 			// aapt resource value: 0x7f080041
 			public const int exitUntilCollapsed = 2131230785;
@@ -2549,8 +2577,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f080062
 			public const int icon = 2131230818;
 			
-			// aapt resource value: 0x7f0800aa
-			public const int icon_group = 2131230890;
+			// aapt resource value: 0x7f0800ac
+			public const int icon_group = 2131230892;
 			
 			// aapt resource value: 0x7f08003a
 			public const int ifRoom = 2131230778;
@@ -2558,8 +2586,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f08005f
 			public const int image = 2131230815;
 			
-			// aapt resource value: 0x7f0800a6
-			public const int info = 2131230886;
+			// aapt resource value: 0x7f0800a8
+			public const int info = 2131230888;
 			
 			// aapt resource value: 0x7f080059
 			public const int italic = 2131230809;
@@ -2585,14 +2613,14 @@ namespace EZBoot
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800ae
-			public const int masked = 2131230894;
+			// aapt resource value: 0x7f0800b7
+			public const int masked = 2131230903;
 			
-			// aapt resource value: 0x7f08009f
-			public const int media_actions = 2131230879;
+			// aapt resource value: 0x7f0800a1
+			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f0800ac
-			public const int message = 2131230892;
+			// aapt resource value: 0x7f0800b5
+			public const int message = 2131230901;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2615,14 +2643,14 @@ namespace EZBoot
 			// aapt resource value: 0x7f08001e
 			public const int normal = 2131230750;
 			
-			// aapt resource value: 0x7f0800a8
-			public const int notification_background = 2131230888;
+			// aapt resource value: 0x7f0800aa
+			public const int notification_background = 2131230890;
 			
-			// aapt resource value: 0x7f0800a2
-			public const int notification_main_column = 2131230882;
+			// aapt resource value: 0x7f0800a4
+			public const int notification_main_column = 2131230884;
 			
-			// aapt resource value: 0x7f0800a1
-			public const int notification_main_column_container = 2131230881;
+			// aapt resource value: 0x7f0800a3
+			public const int notification_main_column_container = 2131230883;
 			
 			// aapt resource value: 0x7f08004c
 			public const int parallax = 2131230796;
@@ -2648,11 +2676,11 @@ namespace EZBoot
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
 			
-			// aapt resource value: 0x7f0800a7
-			public const int right_icon = 2131230887;
+			// aapt resource value: 0x7f0800a9
+			public const int right_icon = 2131230889;
 			
-			// aapt resource value: 0x7f0800a3
-			public const int right_side = 2131230883;
+			// aapt resource value: 0x7f0800a5
+			public const int right_side = 2131230885;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2756,11 +2784,14 @@ namespace EZBoot
 			// aapt resource value: 0x7f08004b
 			public const int start = 2131230795;
 			
-			// aapt resource value: 0x7f08009e
-			public const int status_bar_latest_event_content = 2131230878;
+			// aapt resource value: 0x7f0800a0
+			public const int status_bar_latest_event_content = 2131230880;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int submitSignUp = 2131230899;
 			
 			// aapt resource value: 0x7f080087
 			public const int submit_area = 2131230855;
@@ -2792,8 +2823,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f080015
 			public const int textinput_error = 2131230741;
 			
-			// aapt resource value: 0x7f0800a4
-			public const int time = 2131230884;
+			// aapt resource value: 0x7f0800a6
+			public const int time = 2131230886;
 			
 			// aapt resource value: 0x7f08001c
 			public const int title = 2131230748;
@@ -2837,11 +2868,23 @@ namespace EZBoot
 			// aapt resource value: 0x7f080026
 			public const int useLogo = 2131230758;
 			
+			// aapt resource value: 0x7f0800b0
+			public const int userPasswordRepeat = 2131230896;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int userSignupEmail = 2131230897;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int userSignupLogin = 2131230894;
+			
+			// aapt resource value: 0x7f0800af
+			public const int userSignupPassword = 2131230895;
+			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800ad
-			public const int visible = 2131230893;
+			// aapt resource value: 0x7f0800b6
+			public const int visible = 2131230902;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3083,10 +3126,13 @@ namespace EZBoot
 			public const int select_dialog_singlechoice_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int support_simple_spinner_dropdown_item = 2130968635;
+			public const int SignUpScreen = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int tooltip = 2130968636;
+			public const int support_simple_spinner_dropdown_item = 2130968636;
+			
+			// aapt resource value: 0x7f04003d
+			public const int tooltip = 2130968637;
 			
 			static Layout()
 			{
@@ -3225,6 +3271,9 @@ namespace EZBoot
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
 			
+			// aapt resource value: 0x7f090029
+			public const int device_prompt = 2131296297;
+			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;
 			
@@ -3279,6 +3328,15 @@ namespace EZBoot
 			
 			// aapt resource value: 0x7f0a0180
 			public const int AppTheme = 2131362176;
+			
+			// aapt resource value: 0x7f0a0182
+			public const int AppTheme_AppBarOverlay = 2131362178;
+			
+			// aapt resource value: 0x7f0a0181
+			public const int AppTheme_NoActionBar = 2131362177;
+			
+			// aapt resource value: 0x7f0a0183
+			public const int AppTheme_PopupOverlay = 2131362179;
 			
 			// aapt resource value: 0x7f0a009a
 			public const int Base_AlertDialog_AppCompat = 2131361946;

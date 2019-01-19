@@ -1,41 +1,38 @@
 ﻿using Android.App;
 using Android.OS;
+using Android.Widget;
+using Android.Content;
 using Android.Support.V7.App;
 using Android.Runtime;
-using Android.Widget;
-using System;
-using Android.Content;
+
+
 
 namespace EZBoot
 {
-    [Activity(Label = "EZBoot Login Screen", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "EZBoot", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
-
             base.OnCreate(savedInstanceState);
-
-
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MainPage);
-
-            //Initialize elements to make them functional
             Button executeButton = FindViewById<Button>(Resource.Id.executeButton);
-            Button signUpButton = FindViewById<Button>(Resource.Id.signUpButton);
-            EditText userName = FindViewById<EditText>(Resource.Id.userName);
-            EditText userPassword = FindViewById<EditText>(Resource.Id.userPassword);
+            Button configureButton = FindViewById<Button>(Resource.Id.configureButton);
 
 
-            //Button click function for login button
-            loginButton.Click += (o, e) => {
+            //Button click function for execute button
 
+            executeButton.Click += (o, e) => {
+                string macAddress = "6C3BE5113CF3";
+                WakeOnLAN WOL = new WakeOnLAN();
+                Toast.MakeText(this, WOL.Wakeup(macAddress), ToastLength.Long).Show();
             };
 
-            //Button click function for sign up button
+            //Button click function for config button
             configureButton.Click += (o, e) =>
             {
-                Intent transferPages = new Intent(this, typeof(SignUpScreen));
+                //Intent transferPages = new Intent(this, typeof(ConfigScreen));
             };
         }
     }
