@@ -43,8 +43,8 @@ namespace EZBoot
         {
             try
             {
-                var address = "192.168.0.4";
-                var port = 9;
+                var address;
+                var port;
 
                 var client = new UdpSocketClient();
 
