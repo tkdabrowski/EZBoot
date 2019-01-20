@@ -21,10 +21,9 @@ namespace EZBoot
             Button configureButton = FindViewById<Button>(Resource.Id.configureButton);
 
 
-            //Button click function for execute button
-
+            //Button click function for execute butto
             executeButton.Click += (o, e) => {
-                string macAddress = "6C3BE5113CF3";
+                string macAddress;
                 WakeOnLAN WOL = new WakeOnLAN();
                 Toast.MakeText(this, WOL.Wakeup(macAddress), ToastLength.Long).Show();
             };

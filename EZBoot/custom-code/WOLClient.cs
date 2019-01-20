@@ -1,50 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using System.Globalization;
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Sockets.Plugin;
-using System.IO;
+//using System.IO; needed for when configuration reading/writing is implemented
 
 namespace EZBoot
 {
     class WakeOnLAN
     {
-
+        //Constructor, will pull in configuration in later iterations
         public WakeOnLAN()
         {
         }
-
-        //TODO: Create function that validates mac address
-        /*public string WakeOnLan()
-            {
-                    MACAddress = Regex.Replace(MACAddress, @"[^0-9A-Fa-f]", ""); 
-
-                    if (MACAddress.Length != 12)
-                    {
-                         return "Invalid MAC address. Try again!";
-                    }
-                    else
-                    {
-                        return Wakeup(MACAddress); 
-                    }
-                } */
-
 
         public string Wakeup(string macAddress)
         {
             try
             {
-                var address = "192.168.0.4";
-                var port = 9;
+                var address;
+                var port;
 
                 var client = new UdpSocketClient();
 
@@ -76,5 +50,21 @@ namespace EZBoot
             }
         }
     }
+
+
+    //TODO: Create function that validates mac address
+    /*public string ValidateMACAddress(string MACAddress)
+        {
+                MACAddress = Regex.Replace(MACAddress, @"[^0-9A-Fa-f]", ""); 
+
+                if (MACAddress.Length != 12)
+                {
+                     return "Invalid MAC address. Try again!";
+                }
+                else
+                {
+                    return MACAddress; 
+                }
+            } */
 }
 
