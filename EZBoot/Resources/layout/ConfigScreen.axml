@@ -6,75 +6,53 @@
 	android:minWidth="25px"
 	android:minHeight="25px"
 	android:columnCount="1"
-	android:rowCount="7">
+	android:rowCount="5">
 	<EditText
 		android:layout_width="match_parent"
 		android:layout_height="30.0dp"
-		android:id="@+id/userSignupLogin"
+		android:id="@+id/configMACAddress"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="20dp"
 		android:layout_marginBottom="0dp"
 		android:background="#ffffffff"
 		android:elegantTextHeight="false"
 		android:clickable="true"
-		android:hint="Enter a username"
+		android:hint="Enter your MAC Address"
 		android:textAlignment="center"
 		android:textSize="20dp"
 	/>
 	<EditText
-		android:inputType="textPassword"
 		android:layout_width="match_parent"
 		android:layout_height="30.0dp"
-		android:id="@+id/userSignupPassword"
+		android:id="@+id/configIPAddress"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="20dp"
 		android:layout_marginBottom="0dp"
 		android:background="#ffffffff"
 		android:elegantTextHeight="false"
 		android:clickable="true"
-		android:hint="Enter a password"
+		android:hint="Enter your IP Address"
 		android:textAlignment="center"
 		android:textSize="20dp"
 	/>
 	<EditText
-		android:inputType="textPassword"
 		android:layout_width="match_parent"
 		android:layout_height="30.0dp"
-		android:id="@+id/userPasswordRepeat"
+		android:id="@+id/configPort"
 		android:layout_centerHorizontal="true"
 		android:layout_marginTop="20dp"
 		android:background="#ffffffff"
 		android:elegantTextHeight="false"
 		android:clickable="true"
-		android:hint="Repeat Password"
+		android:hint="Enter a port"
 		android:textAlignment="center" 
-		android:textSize="20dp"
-	/>
-	<EditText
-		android:layout_width="match_parent"
-		android:layout_height="30.0dp"
-		android:id="@+id/userSignupEmail"
-		android:layout_centerHorizontal="true"
-		android:layout_marginTop="20dp"
-		android:layout_marginBottom="0dp"
-		android:background="#ffffffff"
-		android:elegantTextHeight="false"
-		android:clickable="true"
-		android:hint="Enter your e-mail"
-		android:textAlignment="center" 
-		android:textSize="20dp"
-	/>
-	<CheckBox
-		android:text="I agree to the EZBoot terms of service"
-		android:id="@+id/agreementCheckbox"
-		android:layout_marginTop="20dp"
 		android:textSize="20dp"
 	/>
 		<Button
 		android:text="Sign Up"
-		android:id="@+id/submitSignUp"
+		android:id="@+id/saveConfig"
 		android:layout_width="match_parent"
-		android:layout_height="60dp"
+		android:layout_height="120dp"
 		android:layout_marginTop="150dp"
 		android:layout_centerHorizontal="true"
 		android:textSize="20dp"
@@ -84,18 +62,13 @@
 	/>
 		<Button
 		android:text="Cancel"
-		android:id="@+id/cancelSignUp"
+		android:id="@+id/cancelConfig"
 		android:layout_width="match_parent"
-		android:layout_height="60dp"
+		android:layout_height="120dp"
 		android:layout_centerHorizontal="true"
 		android:textSize="20dp"
 		android:clickable="true"
 		android:textAlignment="center"
 		android:textAllCaps="false"
 	/>
-	
-	
-
-
-
 </GridLayout>

@@ -2421,9 +2421,6 @@ namespace EZBoot
 			// aapt resource value: 0x7f080027
 			public const int add = 2131230759;
 			
-			// aapt resource value: 0x7f0800b2
-			public const int agreementCheckbox = 2131230898;
-			
 			// aapt resource value: 0x7f080070
 			public const int alertTitle = 2131230832;
 			
@@ -2451,8 +2448,8 @@ namespace EZBoot
 			// aapt resource value: 0x7f080063
 			public const int buttonPanel = 2131230819;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int cancelSignUp = 2131230900;
+			// aapt resource value: 0x7f0800b2
+			public const int cancelConfig = 2131230898;
 			
 			// aapt resource value: 0x7f08009f
 			public const int cancel_action = 2131230879;
@@ -2480,6 +2477,15 @@ namespace EZBoot
 			
 			// aapt resource value: 0x7f080039
 			public const int collapseActionView = 2131230777;
+			
+			// aapt resource value: 0x7f0800af
+			public const int configIPAddress = 2131230895;
+			
+			// aapt resource value: 0x7f0800ae
+			public const int configMACAddress = 2131230894;
+			
+			// aapt resource value: 0x7f0800b0
+			public const int configPort = 2131230896;
 			
 			// aapt resource value: 0x7f08009a
 			public const int configureButton = 2131230874;
@@ -2613,14 +2619,14 @@ namespace EZBoot
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b7
-			public const int masked = 2131230903;
+			// aapt resource value: 0x7f0800b5
+			public const int masked = 2131230901;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int message = 2131230901;
+			// aapt resource value: 0x7f0800b3
+			public const int message = 2131230899;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2681,6 +2687,9 @@ namespace EZBoot
 			
 			// aapt resource value: 0x7f0800a5
 			public const int right_side = 2131230885;
+			
+			// aapt resource value: 0x7f0800b1
+			public const int saveConfig = 2131230897;
 			
 			// aapt resource value: 0x7f08000c
 			public const int save_image_matrix = 2131230732;
@@ -2790,9 +2799,6 @@ namespace EZBoot
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int submitSignUp = 2131230899;
-			
 			// aapt resource value: 0x7f080087
 			public const int submit_area = 2131230855;
 			
@@ -2868,23 +2874,11 @@ namespace EZBoot
 			// aapt resource value: 0x7f080026
 			public const int useLogo = 2131230758;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int userPasswordRepeat = 2131230896;
-			
-			// aapt resource value: 0x7f0800b1
-			public const int userSignupEmail = 2131230897;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int userSignupLogin = 2131230894;
-			
-			// aapt resource value: 0x7f0800af
-			public const int userSignupPassword = 2131230895;
-			
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int visible = 2131230902;
+			// aapt resource value: 0x7f0800b4
+			public const int visible = 2131230900;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3126,7 +3120,7 @@ namespace EZBoot
 			public const int select_dialog_singlechoice_material = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int SignUpScreen = 2130968635;
+			public const int signupscreen = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
 			public const int support_simple_spinner_dropdown_item = 2130968636;

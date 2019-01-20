@@ -82,6 +82,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigScreen.cs" />
+    <Compile Include="custom-code\Configuration.cs" />
+    <Compile Include="custom-code\WOLClient.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -129,12 +131,9 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\SignUp.axml">
+    <AndroidResource Include="Resources\layout\ConfigScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="custom-code\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
