@@ -24,9 +24,6 @@ namespace EZBoot
             //Button click function for execute button
 
             executeButton.Click += (o, e) => {
-                string macAddress = "6C3BE5113CF3";
-                WakeOnLAN WOL = new WakeOnLAN();
-                Toast.MakeText(this, WOL.Wakeup(macAddress), ToastLength.Long).Show();
             };
 
             //Button click function for config button
