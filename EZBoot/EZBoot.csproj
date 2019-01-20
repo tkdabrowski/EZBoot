@@ -131,7 +131,7 @@
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\SignUpScreen.axml">
+    <AndroidResource Include="Resources\layout\ConfigScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

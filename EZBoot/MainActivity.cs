@@ -32,7 +32,7 @@ namespace EZBoot
             //Button click function for config button
             configureButton.Click += (o, e) =>
             {
-                //Intent transferPages = new Intent(this, typeof(ConfigScreen));
+                Intent transferPages = new Intent(this, typeof(ConfigScreen));
             };
         }
     }
