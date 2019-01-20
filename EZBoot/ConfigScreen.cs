@@ -18,6 +18,7 @@ namespace EZBoot
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.ConfigScreen);
             EditText configMACAddress = FindViewById<EditText>(Resource.Id.configMACAddress);
             EditText configIPAddress = FindViewById<EditText>(Resource.Id.configIPAddress);
             EditText configPort = FindViewById<EditText>(Resource.Id.configPort);
@@ -32,6 +33,7 @@ namespace EZBoot
             cancelConfig.Click += (o, e) =>
             {
                 Intent returnToMenu = new Intent(this, typeof(MainActivity));
+                this.StartActivity(returnToMenu);
             };
             
             // Create your application here
